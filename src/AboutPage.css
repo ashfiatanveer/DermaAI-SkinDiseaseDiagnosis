@@ -1,0 +1,103 @@
+/* Remove default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-page {
+  font-family: Arial, sans-serif;
+  background-color: #161515;
+  color: #f0f0f0;
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: transparent; /* Make navbar invisible */
+  border: none;
+}
+
+/* BACK ARROW */
+.back-arrow {
+  font-size: 1.5rem;
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.back-arrow:hover {
+  color: #ffffff;
+}
+
+/* NAV LIST */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+}
+
+/* NAV BUTTONS */
+.nav-button {
+  background: none;
+  border: none;
+  color: #f0f0f0;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* PAGE CONTENT */
+.page-content {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* HEADINGS & PARAGRAPHS */
+.main-header {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #555;
+  padding-bottom: 10px;
+}
+
+.sub-header {
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #444;
+  padding-bottom: 5px;
+}
+
+.paragraph {
+  max-width: 700px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
